@@ -24,18 +24,18 @@ const DarkMode = () => {
 
   return (
     <div
-    className="relative"
+    className="relative flex items-center"
     >
         {/* light */}
         <FaRegLightbulb 
         onClick={()=> setTheme(theme === "light"? "dark" : "light")}
-        className={`w-12 cursor-pointer transition-all duration-300 absolute right-0 z-10 ${theme === "dark"? "opacity-0": "opacity-100"}`}
+        className={`w-12 cursor-pointer transition-all duration-300 absolute right-0  ${theme === "dark"? "hidden": "block"}`}
         />
 
         {/* dark */}
         <FaLightbulb 
         onClick={()=> setTheme(theme === "light"? "dark" : "light")}
-        className={`w-12 cursor-pointer transition-all duration-300 }`}
+        className={`w-12 cursor-pointer transition-all duration-300 absolute right-0 ${theme === "light"? "hidden": "block"}`}
         /> 
 
     </div>
