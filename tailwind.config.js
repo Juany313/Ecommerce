@@ -7,6 +7,9 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
+      boxShadow: {
+        'custom': '-10px 10px 12px rgba(0, 0, 0, 1)',
+      },
       colors: {
         primary: "#fea928",
         secondary:"#ed8900" 
