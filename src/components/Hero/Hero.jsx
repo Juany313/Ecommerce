@@ -1,5 +1,5 @@
 import React from 'react'
-import Image1 from "../../assets/Hero/woman.jpg";
+import Image1 from "../../assets/Hero/woman.bags.png";
 import Image2 from "../../assets/Hero/shopping.jpg";
 import Image3 from "../../assets/Hero/sale.jpg";
 import Slider from "react-slick";
@@ -90,7 +90,7 @@ const Hero = () => {
                                 <img 
                                 src={data.img} 
                                 alt="" 
-                                className='h-[300px] w-[300px] sm:h-[450px] sm:w-[450px] sm:acale-105 lg:scale-120 object-contain mx-auto '
+                                className='h-[400px] w-[400px] sm:h-[450px] sm:w-[450px] sm:acale-105 lg:scale-140 object-contain mx-auto '
                                 />
                             </div>
                         </div>

@@ -7,8 +7,9 @@ import Banner from './components/Banner/Banner';
 
 import AOS from "aos";
 import "aos/dist/aos.css"
+import Subscribe from './components/Subscribe/Subscribe';
 
-//! 1:38:29 video
+
 
 function App() {
   
@@ -30,6 +31,8 @@ React.useEffect(()=> {
         <Products/>
         <TopProducts/>
         <Banner/>
+        <Subscribe/>
+        <Products/>
       </div>
       
    
