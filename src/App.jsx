@@ -8,6 +8,7 @@ import Banner from './components/Banner/Banner';
 import AOS from "aos";
 import "aos/dist/aos.css"
 import Subscribe from './components/Subscribe/Subscribe';
+import Testimonials from './components/Testimonials/Testimonials';
 
 
 
@@ -33,6 +34,7 @@ React.useEffect(()=> {
         <Banner/>
         <Subscribe/>
         <Products/>
+        <Testimonials/>
       </div>
       
    
