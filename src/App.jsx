@@ -9,6 +9,7 @@ import AOS from "aos";
 import "aos/dist/aos.css"
 import Subscribe from './components/Subscribe/Subscribe';
 import Testimonials from './components/Testimonials/Testimonials';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -26,7 +27,7 @@ React.useEffect(()=> {
 
   return (
    
-      <div className="">
+      <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
         <Navbar/>
         <Hero/>
         <Products/>
@@ -35,6 +36,7 @@ React.useEffect(()=> {
         <Subscribe/>
         <Products/>
         <Testimonials/>
+        <Footer/>
       </div>
       
    

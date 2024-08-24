@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Banner from "../../assets/banner/Banner.png"
+import Banner from "../../assets/subscribe/Banner.png"
 
 
 const BannerImg = {
