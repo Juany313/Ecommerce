@@ -1,8 +1,8 @@
 import React from 'react'
 
-import Img1 from "../../assets/shirts/woman1.png"
-import Img2 from "../../assets/shirts/woman1.png"
-import Img3 from "../../assets/shirts/woman1.png"
+import Img1 from "../../assets/shirts/camisa.png"
+import Img2 from "../../assets/shirts/camisa-rayas.png"
+import Img3 from "../../assets/shirts/camisa3.png"
 
 import { FaStar} from "react-icons/fa"
 

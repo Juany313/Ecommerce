@@ -5,7 +5,7 @@ import Img3 from "../../assets/women/woman2.png"
 import Img4 from "../../assets/women/woman3.png"
 import { FaStar} from "react-icons/fa6"
 
-//! 1:17 del video
+
 
 const ProductsData = [
     {
