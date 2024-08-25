@@ -45,8 +45,8 @@ const Footer = () => {
         className='grid md:grid-cols-3 pb-44 pt-5'>
           {/* company details */}
             <div className='py-8 px-4'>
-              <h1 className='sm.:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3'>
-              <div className='w-10 uppercase bg-primary max-w-[50px] '>
+              <h1 className='sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3'>
+              <div className='w-20 text-center uppercase bg-primary max-w-[50px] '>
                               JG
               </div>
                 Shopsy
